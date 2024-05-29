@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Mask",
+  "version": "1.0",
+  "description": "Hides the difficulty tag on LeetCode so you can't see it.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://leetcode.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  }
+}
