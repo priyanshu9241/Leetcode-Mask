@@ -7,7 +7,7 @@ As a fellow **Leetcode** enthusiast, I've seen many shy away from challenging pr
 - 🔍 Replaces "Easy," "Medium," and "Hard" difficulty tags with "🤔" on LeetCode.
 - 🚀 Works dynamically as new content loads on the page.
 - 🌐 Lightweight and easy to install.
-- 🖱️ Easily undo changes and see the original difficulty by clicking on the "🤔".
+- 🖱️ Easily see the original difficulty by clicking on the "🤔" to sate your curiosity.
 
 ## How It Works
 
